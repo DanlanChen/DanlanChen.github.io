@@ -54,6 +54,7 @@ $ sudo cp lib64/* /usr/local/cuda/lib64/
 
 $ sudo cp include/* /usr/local/cuda/include
 
+
 5. install keras
 
 It is not successful as I followed the official website installation instruction, because I installed ananconda on my machine, but the system keeps on installing it on my previous python 2.6 lib package, I struggled a lot, by looking at https://www.quora.com/How-do-I-install-Python-packages-in-Anaconda
