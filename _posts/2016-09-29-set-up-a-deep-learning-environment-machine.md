@@ -23,7 +23,7 @@ alias python2.7="/home/danlan/anaconda2/bin/python"
 
 alias python2.6="/usr/bin/python"
 
-2. install theano
+2.install theano
 
 the official webpage (http://deeplearning.net/software/theano/install_centos6.html#install-centos6) of course you do not need to do much as you already installed ananconda, maybe "sudo pip install theano" works( but when I do pip using keras,I faced problem, not recommed if you installed ananconda).
 
