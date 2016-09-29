@@ -75,7 +75,7 @@ Done
 But there is also issue I do not solve:
 
 I do not find any right answer on how to set bash as my default shell on centos. 
-So I manually change my shell to bash by using exec /bin/bash every time i logged in the machine
+So I manually change my shell to bash by using "exec /bin/bash" every time I logged in the machine which is of course not efficient.
 
 
 
