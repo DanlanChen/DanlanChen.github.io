@@ -45,7 +45,7 @@ aftert insatllation, you should follow 6.1.1 to do enviroment setting.
 
 https://developer.nvidia.com/cudnn
 
-register-download-follow instruction or do the commands below(actually below is simpler than the instruction, as the official instruction asks you to do alias and linking which is complete)
+register-download-follow instruction or do the commands below(actually below is simpler than the instruction, as the official instruction asks you to do alias and linking which is complicate)
 
 $ tar -zxf cudnn-7.5-linux-x64-v5.0-ga.tgz
 
