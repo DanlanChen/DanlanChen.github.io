@@ -19,5 +19,13 @@ I have some error handling tricks needing to be logged :
    K.set_image_dim_ordering('th')
    
 3. when you want to import from __future__ , it should be at the top of your code.
+
+4. when your training loss is nan, you should consider having smaller filter number, shallow network, remove dropout(decrease dropout rate),
+you should consider using another optimizer(like rmsprop, increasing its learning rate)
+
+5. when you encounter the problem of" MemoryError: Error allocating 4194893824 bytes of device memory (CNMEM_STATUS_OUT_OF_MEMORY)."
+something like that, you should consider using smaller filter number. mainly because your weights parameters are too large.
+
+
    
    
