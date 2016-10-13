@@ -26,6 +26,6 @@ you should consider using another optimizer(like rmsprop, increasing its learnin
 5. when you encounter the problem of" MemoryError: Error allocating 4194893824 bytes of device memory (CNMEM_STATUS_OUT_OF_MEMORY)."
 something like that, you should consider using smaller filter number. mainly because the number of your weights parameters are too large.
 
-
+6. I can not store a array with the first column is (512,512) , the rest columns are scalar into hdf5, and I can not store a dictionary into hdf5, so i just use np.save(), it works.
    
    
