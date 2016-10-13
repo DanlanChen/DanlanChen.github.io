@@ -10,7 +10,7 @@ I have some error handling tricks needing to be logged :
 
    OverflowError: Range exceeds valid bounds
    
-   you need to check if your input image matches the input setting if keras,
+   you need to check if your input image matches the input setting in keras,
    
    try this at the top of your code:
    
@@ -24,7 +24,7 @@ I have some error handling tricks needing to be logged :
 you should consider using another optimizer(like rmsprop, increasing its learning rate)
 
 5. when you encounter the problem of" MemoryError: Error allocating 4194893824 bytes of device memory (CNMEM_STATUS_OUT_OF_MEMORY)."
-something like that, you should consider using smaller filter number. mainly because your weights parameters are too large.
+something like that, you should consider using smaller filter number. mainly because the number of your weights parameters are too large.
 
 
    
